@@ -12,11 +12,10 @@ html {
 }
 
 nav {
-  align-self: center;
+  text-align: center;
 }
 
   li {
-  display: inline-block;
   border-radius: 8px;
   text-decoration: none;
   text-align: center;
@@ -28,22 +27,8 @@ a {
   color: #fff;
 }
 
-@media only screen and (min-width: 25em) {
-
-}
-
-@media only screen and (min-width: 38em) {
-
-}
-
-@media only screen and (min-width: 50em) {
-
-  .nav li {
-    text-align: right;
-  }
-
-}
 
 @media only screen and (min-width: 60em) {
+
 
 }
