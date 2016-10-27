@@ -1,0 +1,49 @@
+html {
+  font-family: 'Abhaya Libre', serif;
+}
+
+.masthead {
+  background-color: #423ca3;
+  color: #fff;
+}
+
+.logo {
+  text-align: center;
+}
+
+nav {
+  align-self: center;
+}
+
+  li {
+  display: inline-block;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  background-color: #15114c;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min-width: 38em) {
+
+}
+
+@media only screen and (min-width: 50em) {
+
+  .nav li {
+    text-align: right;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+}
