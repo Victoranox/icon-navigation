@@ -11,11 +11,11 @@ html {
   text-align: center;
 }
 
-nav {
+.nav {
   text-align: center;
 }
 
-  li {
+li {
   border-radius: 8px;
   text-decoration: none;
   text-align: center;
@@ -25,10 +25,28 @@ nav {
 a {
   text-decoration: none;
   color: #fff;
+  background-color: #15114c;
 }
 
+nav a:hover {
+  color: #15114c;
+  background-color: #fff;
+}
+
+li:hover {
+  text-decoration: none;
+  color: #15114c;
+  background-color: #fff;
+}
 
 @media only screen and (min-width: 60em) {
 
+  .logo {
+    text-align: left;
+  }
+
+  .nav {
+    text-align: right;
+  }
 
 }
